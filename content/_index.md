@@ -9,7 +9,7 @@ hero:
 intro:
   label: Du stehst im Zentrum — mit Deinem ganzen Wesen.
   paragraphs:
-    - Psychosoziale Beratung Hilfe zur Selbsthilfe für Menschen, die zu
+    - Psychosoziale Beratung ist Hilfe zur Selbsthilfe für Menschen, die zu
       einzelnen Themen oder Situationen Unterstützung suchen. Sie begleitet bei
       Entscheidungs-, Veränderungs- und Bewältigungsprozessen und stärkt
       Selbstbestimmung und Handlungsfähigkeit.
