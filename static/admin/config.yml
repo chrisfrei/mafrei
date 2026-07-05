@@ -1,0 +1,174 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: "de"
+publish_mode: simple
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "start"
+    label: "Startseite"
+    editor:
+      preview: false
+    files:
+      - file: "content/_index.md"
+        label: "Startseite"
+        name: "home"
+        fields:
+          - { label: "Interner Titel", name: "title", widget: "string" }
+          - label: "Hero (grosser Aufmacher oben)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Einleitungstext", name: "lead", widget: "text" }
+              - { label: "Bild", name: "image", widget: "image" }
+              - { label: "Bild — Alt-Text (Beschreibung fürs Bild)", name: "image_alt", widget: "string" }
+          - label: "Einleitungstext (unter dem Bild)"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Überschrift/Label", name: "label", widget: "string" }
+              - label: "Absätze"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Absatz", name: "paragraph", widget: "text" }
+          - label: "Zitat"
+            name: "quote_band"
+            widget: "object"
+            fields:
+              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Quelle (Person)", name: "source", widget: "string" }
+          - label: "Abschluss / Call-to-Action"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Text", name: "lead", widget: "text" }
+              - { label: "Button-Beschriftung", name: "button", widget: "string" }
+
+  - name: "angebot"
+    label: "Angebot"
+    editor:
+      preview: false
+    files:
+      - file: "content/angebot.md"
+        label: "Angebot"
+        name: "angebot"
+        fields:
+          - { label: "Interner Titel", name: "title", widget: "string" }
+          - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Einleitungstext", name: "lead", widget: "text" }
+          - label: "Abschnitte (Bild + Text im Wechsel)"
+            name: "sections"
+            widget: "list"
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Bild", name: "image", widget: "image" }
+              - { label: "Bild — Alt-Text", name: "image_alt", widget: "string" }
+              - label: "Bildposition"
+                name: "image_position"
+                widget: "select"
+                options: [ "left", "right" ]
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - label: "Absätze"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Absatz", name: "paragraph", widget: "text" }
+          - { label: "Button-Beschriftung", name: "cta_button", widget: "string" }
+          - label: "Zitat"
+            name: "quote_band"
+            widget: "object"
+            fields:
+              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Quelle (Person)", name: "source", widget: "string" }
+
+  - name: "ueber"
+    label: "Über mich"
+    editor:
+      preview: false
+    files:
+      - file: "content/ueber.md"
+        label: "Über mich"
+        name: "ueber"
+        fields:
+          - { label: "Interner Titel", name: "title", widget: "string" }
+          - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Rolle / Titel", name: "role", widget: "string" }
+          - { label: "Portraitfoto", name: "portrait", widget: "image" }
+          - { label: "Portrait — Alt-Text", name: "portrait_alt", widget: "string" }
+          - { label: "Biografie-Text", name: "body", widget: "markdown" }
+          - { label: "Überschrift über der Liste", name: "creds_heading", widget: "string" }
+          - label: "Stationen (Ausbildung, Erfahrung …)"
+            name: "creds"
+            widget: "list"
+            field: { label: "Station", name: "cred", widget: "string" }
+          - label: "Zitat"
+            name: "quote_band"
+            widget: "object"
+            fields:
+              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Quelle (Person)", name: "source", widget: "string" }
+
+  - name: "kontakt"
+    label: "Kontakt"
+    editor:
+      preview: false
+    files:
+      - file: "content/kontakt.md"
+        label: "Kontakt"
+        name: "kontakt"
+        fields:
+          - { label: "Interner Titel", name: "title", widget: "string" }
+          - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Einleitungstext (Zeilenumbruch mit <br/> möglich)", name: "lead", widget: "text" }
+          - { label: "Bild", name: "image", widget: "image" }
+          - { label: "Bild — Alt-Text", name: "image_alt", widget: "string" }
+          - label: "Kontaktangaben"
+            name: "info"
+            widget: "list"
+            summary: "{{fields.k}}: {{fields.v}}"
+            fields:
+              - { label: "Bezeichnung (z. B. Telefon)", name: "k", widget: "string" }
+              - { label: "Wert", name: "v", widget: "string" }
+              - { label: "Zusatztext (optional)", name: "sub", widget: "string", required: false }
+          - { label: "Überschrift über den Tarifen", name: "tarife_heading", widget: "string" }
+          - label: "Tarife — Absätze"
+            name: "tarife_paragraphs"
+            widget: "list"
+            field: { label: "Absatz", name: "paragraph", widget: "text" }
+          - { label: "Bestätigungstext nach Formular-Absenden", name: "ok_message", widget: "string" }
+          - label: "Zitat"
+            name: "quote_band"
+            widget: "object"
+            fields:
+              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Quelle (Person)", name: "source", widget: "string" }
+
+  - name: "legal"
+    label: "Rechtliches"
+    editor:
+      preview: false
+    files:
+      - file: "content/impressum.md"
+        label: "Impressum"
+        name: "impressum"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/datenschutz.md"
+        label: "Datenschutzerklärung"
+        name: "datenschutz"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
+          - { label: "Einleitungstext", name: "lead", widget: "text", required: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }

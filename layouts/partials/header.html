@@ -1,0 +1,16 @@
+{{ $cur := .RelPermalink }}
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <span class="brand-top"><b>MARION</b> FREI {{ partial "leaf.html" . }}</span>
+      <small class="brand-sub">Psychosoziale Beratung</small>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="{{ "/" | relURL }}" class="{{ if eq $cur (relURL "/") }}active{{ end }}">Start</a>
+      <a href="{{ "/angebot/" | relURL }}" class="{{ if eq $cur (relURL "/angebot/") }}active{{ end }}">Angebot</a>
+      <a href="{{ "/ueber/" | relURL }}" class="{{ if eq $cur (relURL "/ueber/") }}active{{ end }}">Über mich</a>
+      <a href="{{ "/kontakt/" | relURL }}" class="btn {{ if eq $cur (relURL "/kontakt/") }}active{{ end }}">Kontakt</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div>
+</header>

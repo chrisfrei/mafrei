@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="ph wrap">
+  <span class="eyebrow">{{ .Params.eyebrow }}</span>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+</div>
+<section style="padding-top:50px">
+  <div class="wrap legal">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}

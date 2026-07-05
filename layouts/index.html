@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ $h := .Params.hero }}
+<div class="hero wrap">
+  <h1>{{ $h.title }}</h1>
+  <div class="hero-foot">
+    <p class="lead">{{ $h.lead }}</p>
+  </div>
+</div>
+<div class="hero-band"><img src="{{ $h.image | relURL }}" alt="{{ $h.image_alt }}" /></div>
+
+{{ $intro := .Params.intro }}
+<section class="intro-sec">
+  <div class="wrap offset">
+    <div class="col-label">{{ $intro.label }}</div>
+    <div>
+      {{ range $intro.paragraphs }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="q-band">
+  <div class="wrap">
+    <blockquote>{{ .Params.quote_band.text }}</blockquote>
+    <cite>{{ .Params.quote_band.source }}</cite>
+  </div>
+</section>
+
+<section class="cta-final">
+  <div class="wrap">
+    <span class="eyebrow">{{ .Params.cta.eyebrow }}</span>
+    <h2 style="margin-top:22px">{{ .Params.cta.title }}</h2>
+    <p class="lead" style="max-width:560px;margin:0 auto 34px">{{ .Params.cta.lead }}</p>
+    <a class="btn" href="{{ "/kontakt/" | relURL }}">{{ .Params.cta.button }}</a>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="ph wrap">
+  <span class="eyebrow">{{ .Params.eyebrow }}</span>
+  <h1>{{ .Params.heading }}</h1>
+</div>
+<div class="wrap" style="margin-top:24px">
+  <div class="angebot-intro-grid">
+    <p class="lead">{{ .Params.lead | safeHTML }}</p>
+    <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt }}" class="kontakt-img" />
+  </div>
+</div>
+<section style="padding-top:56px">
+  <div class="wrap contact">
+    <form id="b-form" name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="kontakt" />
+      <p style="display:none"><label>Bitte leer lassen: <input name="bot-field" /></label></p>
+      <div class="field"><label>Name</label><input name="name" required placeholder="Dein Name" /></div>
+      <div class="field"><label>E-Mail oder Telefon</label><input name="kontaktangabe" required placeholder="So erreiche ich Dich" /></div>
+      <div class="field"><label>Dein Anliegen</label><textarea name="anliegen" required placeholder="Worum geht es? Ein paar Sätze genügen."></textarea></div>
+      <button class="btn" type="submit">Nachricht senden</button>
+      <div class="ok-msg" id="b-ok">{{ .Params.ok_message }}</div>
+    </form>
+    <div>
+      {{ range .Params.info }}
+      <div class="info-row"><span class="k">{{ .k }}</span><span class="v">{{ .v }}{{ with .sub }}<small>{{ . }}</small>{{ end }}</span></div>
+      {{ end }}
+      <div class="tarife">
+        <h4>{{ .Params.tarife_heading }}</h4>
+        {{ range .Params.tarife_paragraphs }}<p>{{ . | safeHTML }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="q-band">
+  <div class="wrap">
+    <blockquote>{{ .Params.quote_band.text }}</blockquote>
+    <cite>{{ .Params.quote_band.source }}</cite>
+  </div>
+</section>
+{{ end }}

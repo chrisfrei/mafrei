@@ -1,0 +1,19 @@
+<script>
+  (function(){
+    var menu=document.getElementById('menu');
+    var burger=document.getElementById('burger');
+    if(burger&&menu){burger.addEventListener('click',function(){menu.classList.toggle('open');});}
+
+    var form=document.getElementById('b-form');
+    if(form){
+      form.addEventListener('submit',function(e){
+        e.preventDefault();
+        var ok=document.getElementById('b-ok');
+        if(ok)ok.style.display='block';
+        var btn=e.target.querySelector('button[type=submit]')||e.target.querySelector('button');
+        if(btn)btn.textContent='Gesendet ✓';
+      });
+    }
+
+  })();
+</script>

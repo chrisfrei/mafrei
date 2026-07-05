@@ -1,0 +1,27 @@
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{ if .IsHome }}Marion Frei — Psychosoziale Beratung{{ else }}{{ .Title }} · Marion Frei{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+{{ $t := site.Params.theme }}
+<link href="https://fonts.googleapis.com/css2?{{ range $i, $f := $t.googleFonts }}{{ if $i }}&{{ end }}family={{ replace $f " " "+" }}{{ end }}&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:{{ $t.colorBg }};
+    --bg-2:{{ $t.colorBg2 }};
+    --ink:{{ $t.colorInk }};
+    --ink-soft:{{ $t.colorInkSoft }};
+    --line:{{ $t.colorLine }};
+    --accent:{{ $t.colorAccent }};
+    --accent-deep:{{ $t.colorAccentDeep }};
+    --accent-hover:{{ $t.colorAccentHover }};
+    --sans:'{{ $t.fontSans }}',system-ui,sans-serif;
+    --serif:'{{ $t.fontSerif }}',Georgia,serif;
+    --quote-font:'{{ $t.fontQuote }}',Georgia,serif;
+    --logo-font:'{{ $t.fontLogo }}',sans-serif;
+  }
+</style>
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+</head>

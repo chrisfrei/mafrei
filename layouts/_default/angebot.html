@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="ph wrap">
+  <span class="eyebrow">{{ .Params.eyebrow }}</span>
+  <h1>{{ .Params.heading }}</h1>
+  <p class="lead">{{ .Params.lead }}</p>
+</div>
+<section style="padding-top:40px">
+  <div class="wrap">
+    {{ range $i, $s := .Params.sections }}
+    <div class="angebot-intro-grid" {{ if gt $i 0 }}style="margin-top:64px"{{ end }}>
+      {{ if eq $s.image_position "left" }}
+      <div class="wind-img-wrap"><img src="{{ $s.image | relURL }}" alt="{{ $s.image_alt }}" class="wind-img" /></div>
+      <div class="prose">
+        <h3>{{ $s.heading }}</h3>
+        {{ range $s.paragraphs }}<p>{{ . }}</p>{{ end }}
+      </div>
+      {{ else }}
+      <div class="prose">
+        <h3>{{ $s.heading }}</h3>
+        {{ range $s.paragraphs }}<p>{{ . }}</p>{{ end }}
+      </div>
+      <div class="wind-img-wrap"><img src="{{ $s.image | relURL }}" alt="{{ $s.image_alt }}" class="wind-img" /></div>
+      {{ end }}
+    </div>
+    {{ end }}
+    <div style="margin-top:64px"><a class="btn" href="{{ "/kontakt/" | relURL }}">{{ .Params.cta_button }}</a></div>
+  </div>
+</section>
+<section class="q-band">
+  <div class="wrap">
+    <blockquote>{{ .Params.quote_band.text }}</blockquote>
+    <cite>{{ .Params.quote_band.source }}</cite>
+  </div>
+</section>
+{{ end }}
