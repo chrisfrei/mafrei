@@ -2,7 +2,7 @@
 title: Angebot
 layout: angebot
 eyebrow: Angebot
-heading: Verstehen und Entfalten
+heading: Verstehen und zur Entfaltung bringen
 lead: Situationen und Verhalten verstehen, verändern oder annehmen können
 sections:
   - image: images/gras.jpg
