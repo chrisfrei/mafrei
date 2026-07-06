@@ -1,7 +1,7 @@
 ---
 title: Marion Frei
 hero:
-  title: Vertrauen
+  title: Vertrauen in Dich und ins Leben haben
   lead: In meiner Beratung unterstütze ich Dich dabei, das, was in Dir angelegt
     ist, zu erkennen und vertrauensvoll zum Wachsen zu bringen.
   image: /images/uploads/hero.jpg
