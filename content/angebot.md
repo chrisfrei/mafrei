@@ -2,7 +2,7 @@
 title: Angebot
 layout: angebot
 eyebrow: Angebot
-heading: Hilfe zur Selbsthilfe.
+heading: Verstehen und Entfalten
 lead: Ein niederschwelliges Angebot für Menschen, die zu einzelnen Themen oder
   Situationen Unterstützung suchen.
 sections:
