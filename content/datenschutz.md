@@ -1,15 +1,21 @@
 ---
-title: "Datenschutzerklärung"
-layout: "legal"
-eyebrow: "Rechtliches"
-lead: "Der Schutz Deiner Persönlichkeitsrechte und Deiner Daten ist mir ein besonderes Anliegen — gerade in einem so vertraulichen Bereich wie der Beratung."
+title: Datenschutzerklärung
+layout: legal
+eyebrow: Rechtliches
+lead: Der Schutz Deiner Persönlichkeitsrechte und Deiner Daten ist mir ein
+  besonderes Anliegen — gerade in einem so vertraulichen Bereich wie der
+  Beratung.
 ---
-
 ## 1. Verantwortliche Stelle
 
 Verantwortlich für die Bearbeitung von Personendaten auf dieser Website ist:
 
-<p class="addr">Marion Frei · Psychosoziale Beratung SGfB<br>Region Schaffhausen<br>beratung@mafrei.ch · 079 718 56 49</p>
+* Marion Frei 
+* Psychosoziale Beratung SGfB
+* beratung@mafrei.ch 
+* 079 718 56 49
+
+<p class="addr">Marion Frei · Psychosoziale Beratung SGfB<br>beratung@mafrei.ch · 079 718 56 49</p>
 
 ## 2. Grundlagen
 
@@ -39,11 +45,11 @@ Eine Bekanntgabe Deiner Daten an Dritte erfolgt nur, wenn Du eingewilligt hast, 
 
 Im Rahmen des anwendbaren Datenschutzrechts hast Du insbesondere folgende Rechte:
 
-- Auskunft über die von Dir bearbeiteten Personendaten
-- Berichtigung unrichtiger Daten
-- Löschung Deiner Daten
-- Einschränkung der Bearbeitung sowie Widerspruch
-- Herausgabe oder Übertragung Deiner Daten
+* Auskunft über die von Dir bearbeiteten Personendaten
+* Berichtigung unrichtiger Daten
+* Löschung Deiner Daten
+* Einschränkung der Bearbeitung sowie Widerspruch
+* Herausgabe oder Übertragung Deiner Daten
 
 Zur Ausübung Deiner Rechte genügt eine formlose Nachricht an die oben genannte Adresse. Du hast zudem das Recht, Dich bei der zuständigen Aufsichtsbehörde zu beschweren — in der Schweiz beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB), <a href="https://www.edoeb.admin.ch" target="_blank" rel="noopener">edoeb.admin.ch</a>.
 
