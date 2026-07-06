@@ -15,8 +15,6 @@ Verantwortlich für die Bearbeitung von Personendaten auf dieser Website ist:
 * beratung@mafrei.ch 
 * 079 718 56 49
 
-<p class="addr">Marion Frei · Psychosoziale Beratung SGfB<br>beratung@mafrei.ch · 079 718 56 49</p>
-
 ## 2. Grundlagen
 
 Wir bearbeiten Personendaten im Einklang mit dem revidierten Schweizer Datenschutzgesetz (revDSG, in Kraft seit 1. September 2023) sowie der zugehörigen Verordnung (DSV). Soweit das Datenschutzrecht der EU (DSGVO) anwendbar ist, halten wir uns zusätzlich an dessen Vorgaben.
@@ -51,9 +49,7 @@ Im Rahmen des anwendbaren Datenschutzrechts hast Du insbesondere folgende Rechte
 * Einschränkung der Bearbeitung sowie Widerspruch
 * Herausgabe oder Übertragung Deiner Daten
 
-Zur Ausübung Deiner Rechte genügt eine formlose Nachricht an die oben genannte Adresse. Du hast zudem das Recht, Dich bei der zuständigen Aufsichtsbehörde zu beschweren — in der Schweiz beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB), <a href="https://www.edoeb.admin.ch" target="_blank" rel="noopener">edoeb.admin.ch</a>.
-
-[edoeb.admin.ch](https://www.edoeb.admin.ch)
+Zur Ausübung Deiner Rechte genügt eine formlose Nachricht an die oben genannte Adresse. Du hast zudem das Recht, Dich bei der zuständigen Aufsichtsbehörde zu beschweren — in der Schweiz beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB), [edoeb.admin.ch](https://www.edoeb.admin.ch).
 
 ## 9. Sicherheit
 
