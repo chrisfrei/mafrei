@@ -1,9 +1,9 @@
 ---
 title: Marion Frei
 hero:
-  title: Zur Entfaltung bringen, was in Dir angelegt ist
+  title: Vertrauen
   lead: In meiner Beratung unterstütze ich Dich dabei, das, was in Dir angelegt
-    ist, zu erkennen und Vertrauen zum Wachsen zu bringen.
+    ist, zu erkennen und vertrauensvoll zum Wachsen zu bringen.
   image: /images/uploads/hero.jpg
   image_alt: Nigella-Samenkapsel im Garten
 intro:
