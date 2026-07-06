@@ -12,8 +12,6 @@ Verantwortlich für die Bearbeitung von Personendaten auf dieser Website ist:
 
 * Marion Frei 
 * Psychosoziale Beratung SGfB
-* beratung@mafrei.ch 
-* 079 718 56 49
 
 ## 2. Grundlagen
 
