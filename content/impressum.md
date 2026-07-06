@@ -3,13 +3,10 @@ title: Impressum
 layout: legal
 eyebrow: Rechtliches
 ---
-
 ## Verantwortlich für den Inhalt
 
-- Marion Frei
-- Psychosoziale Beratung SGfB
-- Telefon: 079 718 56 49
-- E-Mail: beratung@mafrei.ch
+* Marion Frei
+* Psychosoziale Beratung SGfB
 
 ## Berufsbezeichnung & Qualifikation
 
