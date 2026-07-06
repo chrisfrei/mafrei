@@ -1,13 +1,13 @@
 ---
-title: "Impressum"
-layout: "legal"
-eyebrow: "Rechtliches"
+title: Impressum
+layout: legal
+eyebrow: Rechtliches
 ---
 
 ## Verantwortlich für den Inhalt
 
-<p class="addr">Marion Frei<br>Psychosoziale Beratung SGfB<br>Region Schaffhausen</p>
-
+- Marion Frei
+- Psychosoziale Beratung SGfB
 - Telefon: 079 718 56 49
 - E-Mail: beratung@mafrei.ch
 
