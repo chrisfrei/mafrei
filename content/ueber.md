@@ -1,7 +1,7 @@
 ---
 title: Über mich
 eyebrow: Über mich
-name: mit Gelassenheit und Toleranz
+name: Mit Gelassenheit und Toleranz unterwegs sein
 role: Marion Frei, dipl. psychologische Beraterin FSB · Beraterin SGfB
 portrait: images/portrait-marion.jpg
 portrait_alt: Portrait von Marion Frei
