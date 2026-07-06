@@ -8,10 +8,6 @@ lead: Gerne vereinbare ich mit Dir einen Termin für ein erstes
 image: pdf-img/kontakt-1.jpg
 image_alt: Ein gepflasterter Weg, gesäumt von Blättern
 info:
-  - k: Telefon
-    v: 079 718 56 49
-  - k: E-Mail
-    v: beratung[at]mafrei.ch
   - k: Beratungsort
     v: Region Schaffhausen
 tarife_heading: Tarife 2026
