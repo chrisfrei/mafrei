@@ -3,8 +3,7 @@ title: Angebot
 layout: angebot
 eyebrow: Angebot
 heading: Verstehen und Entfalten
-lead: Ein niederschwelliges Angebot für Menschen, die zu einzelnen Themen oder
-  Situationen Unterstützung suchen.
+lead: Situationen und Verhalten verstehen, verändern oder annehmen können
 sections:
   - image: images/gras.jpg
     image_alt: Junge Grashalme im Sonnenlicht
