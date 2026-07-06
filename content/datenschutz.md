@@ -53,6 +53,8 @@ Im Rahmen des anwendbaren Datenschutzrechts hast Du insbesondere folgende Rechte
 
 Zur Ausübung Deiner Rechte genügt eine formlose Nachricht an die oben genannte Adresse. Du hast zudem das Recht, Dich bei der zuständigen Aufsichtsbehörde zu beschweren — in der Schweiz beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB), <a href="https://www.edoeb.admin.ch" target="_blank" rel="noopener">edoeb.admin.ch</a>.
 
+[edoeb.admin.ch](https://www.edoeb.admin.ch)
+
 ## 9. Sicherheit
 
 Ich treffe angemessene technische und organisatorische Massnahmen, um Deine Daten gegen unbefugten Zugriff, Verlust oder Missbrauch zu schützen. Bei der Übermittlung per E-Mail kann eine vollständige Datensicherheit jedoch nicht gewährleistet werden; für besonders vertrauliche Anliegen empfehle ich die telefonische Kontaktaufnahme.
