@@ -19,7 +19,7 @@ quote_band:
   text: Das kleinste Samenkorn trägt das grosse Ganze in sich.
   source: Friedrich Fröbel
 cta:
-  eyebrow: Erster Schritt
+  eyebrow: 1. Schritt
   title: Machen wir uns auf den Weg.
   lead: Gerne vereinbare ich mit Dir einen Termin, damit wir uns gemeinsam auf den
     Weg zu Deiner Lösung begeben können.
