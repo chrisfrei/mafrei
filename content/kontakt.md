@@ -6,6 +6,13 @@ lead: Gerne vereinbare ich mit Dir einen Termin. Den Beratungsort wählen wir
   individuell (Region Schaffhausen).
 image: pdf-img/kontakt-1.jpg
 image_alt: Ein gepflasterter Weg, gesäumt von Blättern
+info:
+  - k: Telefon
+    v: 079 718 56 49
+  - k: E-Mail
+    v: beratung[at]mafrei.ch
+  - k: Beratungsort
+    v: Region Schaffhausen
 tarife_heading: Tarife 2026
 tarife_paragraphs:
   - Erstgespräch (1,5 Std.) sowie alle weiteren Gespräche (1 Std.) je CHF
@@ -16,13 +23,6 @@ tarife_paragraphs:
     Aufnahme).
 ok_message: Vielen Dank — Deine Nachricht ist angekommen.
 layout: kontakt
-info:
-  - k: Telefon
-    v: 079 718 56 49
-  - k: E-Mail
-    v: beratung@mafrei.ch
-  - k: Beratungsort
-    v: Region Schaffhausen
 quote_band:
   text: Zu wissen, dass Veränderung möglich ist, und der Wunsch, Veränderungen
     vorzunehmen, dies sind zwei grosse erste Schritte.
