@@ -11,7 +11,7 @@ creds:
   - Spielgruppenleiterin mit Ausbildung, Schulassistentin, Tagesmami
   - Kurse & Weiterbildungen in Personalwesen, Betriebspsychologie,
     Schreibtherapie, kreativem Schreiben
-  - Dipl. psychologische Beraterin FSB, Beraterin SGfB
+  - Psychosoziale Beraterin FSB, Beraterin SGfB
   - Mitglied Qualitätskommission SGfB
   - Fortlaufende Weiterbildungen
 layout: ueber
