@@ -12,7 +12,7 @@ info:
     v: Region Schaffhausen
   - k: "Erreichbarkeit:"
     v: Erstkontakt
-    sub: Bitte benutze für den Erstkontakt das Kontaktformular auf der linken Seite.
+    sub: Bitte benutze für den Erstkontakt das Kontaktformular.
 tarife_heading: Tarife 2026
 tarife_paragraphs:
   - Erstgespräch (1,5 Std.) sowie alle weiteren Gespräche (1 Std.) je CHF
