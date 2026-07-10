@@ -16,7 +16,7 @@ info:
       rasch wie möglich bei Dir.
 tarife_heading: Tarife 2026
 tarife_paragraphs:
-  - Erstgespräch (1,5 Std.) sowie alle weiteren Gespräche (1 Std.) je CHF
+  - Erstgespräch (1.5 Std.) sowie alle weiteren Gespräche (1 Std.) je CHF
     120.00, Abrechnung nach Viertelstunden. Für Studierende und Schüler:innen
     reduzierter Tarif.
   - Termine sind verbindlich und werden verrechnet, sofern nicht 24 Std. vorher
