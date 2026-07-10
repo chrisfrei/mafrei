@@ -10,6 +10,8 @@ image_alt: Ein gepflasterter Weg, gesäumt von Blättern
 info:
   - k: Beratungsort
     v: Region Schaffhausen
+  - k: "Erreichbarkeit:"
+    v: Bitte benutze für den Erstkontakt das Kontaktformular auf der linken Seite.
 tarife_heading: Tarife 2026
 tarife_paragraphs:
   - Erstgespräch (1,5 Std.) sowie alle weiteren Gespräche (1 Std.) je CHF
