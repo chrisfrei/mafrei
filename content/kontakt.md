@@ -10,7 +10,7 @@ image_alt: Ein gepflasterter Weg, gesäumt von Blättern
 info:
   - k: Beratungsort
     v: Region Schaffhausen
-  - k: "Erreichbarkeit:"
+  - k: Erreichbarkeit
     v: Erstkontakt
     sub: Bitte benutze für den Erstkontakt das Kontaktformular. Ich melde mich so
       rasch wie möglich bei Dir.
