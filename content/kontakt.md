@@ -11,11 +11,12 @@ info:
   - k: Beratungsort
     v: Region Schaffhausen
   - k: "Erreichbarkeit:"
-    v: Bitte benutze für den Erstkontakt das Kontaktformular auf der linken Seite.
+    v: Erstkontakt
+    sub: Bitte benutze für den Erstkontakt das Kontaktformular auf der linken Seite.
 tarife_heading: Tarife 2026
 tarife_paragraphs:
   - Erstgespräch (1,5 Std.) sowie alle weiteren Gespräche (1 Std.) je CHF
-    100.00, Abrechnung nach Viertelstunden. Für Studierende und Schüler:innen
+    120.00, Abrechnung nach Viertelstunden. Für Studierende und Schüler:innen
     reduzierter Tarif.
   - Termine sind verbindlich und werden verrechnet, sofern nicht 24 Std. vorher
     abgesagt. Keine Übernahme durch die Krankenkasse (die SGfB arbeitet an einer
