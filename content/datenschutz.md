@@ -11,7 +11,7 @@ lead: Der Schutz Deiner Persönlichkeitsrechte und Deiner Daten ist mir ein
 Verantwortlich für die Bearbeitung von Personendaten auf dieser Website ist:
 
 * Marion Frei 
-* Psychosoziale Beratung SGfB
+* Psychosoziale Beraterin FSB, Beraterin SGfB
 
 ## 2. Grundlagen
 
