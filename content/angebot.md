@@ -28,8 +28,8 @@ sections:
         verständnisvoll darin, den Weg zu dieser Lösung zu finden und zu gehen.
         Hierfür stehen uns verschiedene «Werkzeuge» wie Ressourcenarbeit,
         Reframing, Schreibübungen etc. hilfreich zur Verfügung.
-      - "Mögliche Bereiche können u. a. sein: Probleme am Arbeitsort, mit
-        Familienangehörigen oder in der Beziehung, Schwierigkeiten in der
+      - "Mögliche Bereiche können u. a. sein: Probleme am Arbeitsort, Konflikte
+        mit Familienangehörigen oder in der Beziehung, Schwierigkeiten in der
         Erziehung, Schulsorgen, Frauenthemen, Kindheitsthematiken
         (Glaubenssätze), Selbstwert."
 cta_button: Termin vereinbaren
