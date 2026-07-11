@@ -10,7 +10,7 @@
       <p class="role">{{ .Params.role }}</p>
       {{ .Content }}
       <div class="creds">
-        <h5>{{ .Params.creds_heading }}</h5>
+        <p class="creds-label">{{ .Params.creds_heading }}</p>
         {{ range .Params.creds }}<div class="cred"><span class="ci">—</span>{{ . }}</div>{{ end }}
       </div>
     </div>
