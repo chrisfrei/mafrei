@@ -10,7 +10,7 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "start"
-    label: "Startseite"
+    label: "Homepage"
     editor:
       preview: false
     files:
@@ -47,6 +47,7 @@ collections:
               - { label: "Überschrift", name: "title", widget: "string" }
               - { label: "Text", name: "lead", widget: "text" }
               - { label: "Button-Beschriftung", name: "button", widget: "string" }
+
       - file: "content/angebot.md"
         label: "Angebot"
         name: "angebot"
@@ -79,49 +80,6 @@ collections:
               - { label: "Zitat-Text", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
 
-
-  - name: "angebot"
-    label: "Angebot"
-    editor:
-      preview: false
-    files:
-      - file: "content/angebot.md"
-        label: "Angebot"
-        name: "angebot"
-        fields:
-          - { label: "Interner Titel", name: "title", widget: "string" }
-          - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
-          - { label: "Überschrift", name: "heading", widget: "string" }
-          - { label: "Einleitungstext", name: "lead", widget: "text" }
-          - label: "Abschnitte (Bild + Text im Wechsel)"
-            name: "sections"
-            widget: "list"
-            summary: "{{fields.heading}}"
-            fields:
-              - { label: "Bild", name: "image", widget: "image" }
-              - { label: "Bild — Alt-Text", name: "image_alt", widget: "string" }
-              - label: "Bildposition"
-                name: "image_position"
-                widget: "select"
-                options: [ "left", "right" ]
-              - { label: "Überschrift", name: "heading", widget: "string" }
-              - label: "Absätze"
-                name: "paragraphs"
-                widget: "list"
-                field: { label: "Absatz", name: "paragraph", widget: "text" }
-          - { label: "Button-Beschriftung", name: "cta_button", widget: "string" }
-          - label: "Zitat"
-            name: "quote_band"
-            widget: "object"
-            fields:
-              - { label: "Zitat-Text", name: "text", widget: "text" }
-              - { label: "Quelle (Person)", name: "source", widget: "string" }
-
-  - name: "ueber"
-    label: "Über mich"
-    editor:
-      preview: false
-    files:
       - file: "content/ueber.md"
         label: "Über mich"
         name: "ueber"
@@ -145,11 +103,6 @@ collections:
               - { label: "Zitat-Text", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
 
-  - name: "kontakt"
-    label: "Kontakt"
-    editor:
-      preview: false
-    files:
       - file: "content/kontakt.md"
         label: "Kontakt"
         name: "kontakt"
@@ -181,11 +134,6 @@ collections:
               - { label: "Zitat-Text", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
 
-  - name: "legal"
-    label: "Rechtliches"
-    editor:
-      preview: false
-    files:
       - file: "content/impressum.md"
         label: "Impressum"
         name: "impressum"
@@ -193,6 +141,7 @@ collections:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
           - { label: "Inhalt", name: "body", widget: "markdown" }
+
       - file: "content/datenschutz.md"
         label: "Datenschutzerklärung"
         name: "datenschutz"
