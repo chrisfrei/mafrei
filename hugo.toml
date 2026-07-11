@@ -35,9 +35,4 @@ enableRobotsTXT = true
 
 [minify]
   minifyOutput = true
-[minify.tdewolff.html]
-  keepDocumentTags = true
-  keepEndTags = true
-  keepQuotes = true
-  keepDefaultAttrVals = true
-  keepWhitespace = false
+  disableHTML = true
