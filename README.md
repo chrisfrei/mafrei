@@ -37,7 +37,7 @@ layouts/
   partials/               # head, header, footer, leaf, scripts
 static/
   css/style.css           # gesamtes Styling
-  images/                 # Bilder + Logo (leaf-white.svg)
+  images/                 # alle Bilder + Logo (leaf-white.svg), CMS-Uploads landen in images/uploads/
 ```
 
 ## Inhalte ändern

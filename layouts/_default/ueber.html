@@ -1,10 +1,12 @@
 {{ define "main" }}
 <section style="padding:0">
-  <div class="wrap" style="padding-top:60px;padding-bottom:0"><span class="eyebrow">{{ .Params.eyebrow }}</span></div>
+  <div class="ph wrap" style="padding-bottom:0">
+    <span class="eyebrow">{{ .Params.eyebrow }}</span>
+    <h1>Mit Gelassenheit und Toleranz</h1>
+  </div>
   <div class="about wrap" style="padding-top:30px;padding-bottom:110px">
     <img src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt }}" class="portrait" />
     <div class="txt">
-      <h1>{{ .Params.name }}</h1>
       <p class="role">{{ .Params.role }}</p>
       {{ .Content }}
       <div class="creds">
