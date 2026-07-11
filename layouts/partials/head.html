@@ -10,7 +10,11 @@
 {{ $fontURL := "https://fonts.googleapis.com/css2?" }}
 {{ range $i, $f := $t.googleFonts }}{{ if $i }}{{ $fontURL = printf "%s&" $fontURL }}{{ end }}{{ $fontURL = printf "%sfamily=%s" $fontURL (replace $f " " "+") }}{{ end }}
 {{ $fontURL = printf "%s&display=swap" $fontURL }}
-<link href="{{ $fontURL | safeURL }}" rel="stylesheet" />
+<!-- Load font CSS async: preload as a low-priority stylesheet, swap to real
+     stylesheet on load, so it never blocks first render. -->
+<link rel="preload" as="style" href="{{ $fontURL | safeURL }}" />
+<link rel="stylesheet" href="{{ $fontURL | safeURL }}" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="{{ $fontURL | safeURL }}" /></noscript>
 <style>
   :root{
     --bg:{{ $t.colorBg }};
@@ -27,5 +31,5 @@
     --logo-font:'{{ $t.fontLogo }}',sans-serif;
   }
 </style>
-<link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+<style>{{ readFile "static/css/style.css" | safeCSS }}</style>
 </head>
