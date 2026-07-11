@@ -19,34 +19,37 @@ collections:
         name: "home"
         fields:
           - { label: "Interner Titel", name: "title", widget: "string" }
-          - label: "Hero (grosser Aufmacher oben)"
+          - label: "Hero"
             name: "hero"
             widget: "object"
             fields:
-              - { label: "Überschrift", name: "title", widget: "string" }
-              - { label: "Einleitungstext", name: "lead", widget: "text" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Text", name: "lead", widget: "text" }
               - { label: "Bild", name: "image", widget: "image" }
-              - { label: "Bild — Alt-Text (Beschreibung fürs Bild)", name: "image_alt", widget: "string" }
-          - label: "Einleitungstext (unter dem Bild)"
+              - { label: "Bildbeschreibung (Alt-Text)", name: "image_alt", widget: "string" }
+
+          - label: "Einleitung"
             name: "intro"
             widget: "object"
             fields:
-              - { label: "Überschrift/Label", name: "label", widget: "string" }
+              - { label: "Titel", name: "label", widget: "string" }
               - { label: "Text", name: "paragraph", widget: "text" }
+          
           - label: "Zitat"
             name: "quote_band"
             widget: "object"
             fields:
-              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
+
           - label: "Abschluss / Call-to-Action"
             name: "cta"
             widget: "object"
             fields:
               - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
-              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
               - { label: "Text", name: "lead", widget: "text" }
-              - { label: "Button-Beschriftung", name: "button", widget: "string" }
+              - { label: "Button", name: "button", widget: "string" }
 
       - file: "content/angebot.md"
         label: "Angebot"
@@ -54,8 +57,8 @@ collections:
         fields:
           - { label: "Interner Titel", name: "title", widget: "string" }
           - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
-          - { label: "Überschrift", name: "heading", widget: "string" }
-          - { label: "Einleitungstext", name: "lead", widget: "text" }
+          - { label: "Titel", name: "heading", widget: "string" }
+          - { label: "Text", name: "lead", widget: "text" }
           - label: "Abschnitte (Bild + Text im Wechsel)"
             name: "sections"
             widget: "list"
@@ -67,7 +70,7 @@ collections:
                 name: "image_position"
                 widget: "select"
                 options: [ "left", "right" ]
-              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Titel", name: "heading", widget: "string" }
               - label: "Absätze"
                 name: "paragraphs"
                 widget: "list"
@@ -77,7 +80,7 @@ collections:
             name: "quote_band"
             widget: "object"
             fields:
-              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
 
       - file: "content/ueber.md"
@@ -100,7 +103,7 @@ collections:
             name: "quote_band"
             widget: "object"
             fields:
-              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
 
       - file: "content/kontakt.md"
@@ -110,7 +113,7 @@ collections:
           - { label: "Interner Titel", name: "title", widget: "string" }
           - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
           - { label: "Überschrift", name: "heading", widget: "string" }
-          - { label: "Einleitungstext (Zeilenumbruch mit <br/> möglich)", name: "lead", widget: "text" }
+          - { label: "Text (Zeilenumbruch mit <br/> möglich)", name: "lead", widget: "text" }
           - { label: "Bild", name: "image", widget: "image" }
           - { label: "Bild — Alt-Text", name: "image_alt", widget: "string" }
           - label: "Kontaktangaben"
@@ -131,7 +134,7 @@ collections:
             name: "quote_band"
             widget: "object"
             fields:
-              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
 
       - file: "content/impressum.md"
