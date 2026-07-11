@@ -10,7 +10,7 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "start"
-    label: "Homepage"
+    label: "mafrei.ch"
     editor:
       preview: false
     files:
