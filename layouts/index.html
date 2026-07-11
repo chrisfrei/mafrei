@@ -6,7 +6,7 @@
     <p class="lead">{{ $h.lead }}</p>
   </div>
 </div>
-<div class="hero-band"><img src="{{ $h.image | relURL }}" alt="{{ $h.image_alt }}" /></div>
+<div class="hero-band"><img src="{{ $h.image | relURL }}" alt="{{ $h.image_alt }}" fetchpriority="high" /></div>
 
 {{ $intro := .Params.intro }}
 <section class="intro-sec">
