@@ -1,16 +1,19 @@
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   // Damit Einladungs-/Passwort-zurücksetzen-Links, die auf der normalen Seite
   // landen (statt auf /admin/), trotzdem den Login-/Passwort-Dialog öffnen.
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", function(user){
-      if (!user) {
-        window.netlifyIdentity.on("login", function(){
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
+  // Skript ist deferred, daher hier auf DOMContentLoaded warten statt sofort zu prüfen.
+  document.addEventListener("DOMContentLoaded", function(){
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function(user){
+        if (!user) {
+          window.netlifyIdentity.on("login", function(){
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  });
 </script>
 <script>
   (function(){
