@@ -130,6 +130,9 @@ footer{padding:90px 0 40px;border-top:1px solid var(--line)}
 .legal .meta{font-size:14px;color:var(--ink-soft);font-weight:300;margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
 .legal .addr{font-family:var(--serif);font-size:21px;color:var(--ink);line-height:1.5;margin:6px 0 16px}
 
+@media(max-width:1024px){
+  .wrap{padding:0 32px}
+}
 @media(max-width:900px){
   .menu{display:none}
   .burger{display:flex}
