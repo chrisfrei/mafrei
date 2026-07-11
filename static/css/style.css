@@ -20,8 +20,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(242,235,228,.9);backdrop
 .brand b{font-weight:400}
 .brand-sub{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:400;color:var(--ink-soft)}
 .menu{display:flex;gap:44px;align-items:center}
-.menu a{font-size:13px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);transition:color .2s;cursor:pointer}
-.menu a:hover,.menu a.active{color:var(--accent-deep)}
+.menu a{position:relative;font-size:13px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);transition:color .2s;cursor:pointer;padding-bottom:4px}
+.menu a:hover{color:var(--accent-deep)}
+.menu a.active{color:var(--accent-deep);font-weight:700}
+.menu a.active::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--accent-deep)}
 .menu a.btn,.menu a.btn:hover,.menu a.btn.active{color:#fff}
 .btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:15px 30px;background:var(--accent-deep);color:#fff;border:1px solid var(--accent-deep);cursor:pointer;transition:.25s}
 .btn:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
