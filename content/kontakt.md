@@ -5,7 +5,7 @@ heading: Schritt für Schritt auf den Weg
 lead: Gerne vereinbare ich mit Dir einen Termin für ein erstes
   Beratungsgespräch. Den Beratungsort wählen wir individuell (Region
   Schaffhausen).
-image: pdf-img/kontakt-1.jpg
+image: images/weg.jpg
 image_alt: Ein gepflasterter Weg, gesäumt von Blättern
 info:
   - k: Beratungsort

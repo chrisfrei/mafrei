@@ -3,7 +3,7 @@ title: Über mich
 eyebrow: Über mich
 name: Mit Gelassenheit und Toleranz
 role: Marion Frei, psychosoziale Beraterin FSB · Beraterin SGfB
-portrait: images/portrait-marion.jpg
+portrait: images/portrait.jpg
 portrait_alt: Portrait von Marion Frei
 creds_heading: Einige Stationen auf diesem Weg
 creds:

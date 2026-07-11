@@ -4,7 +4,7 @@ hero:
   title: Vertrauen in Dich und ins Leben haben
   lead: In meiner Beratung unterstütze ich Dich dabei, das, was in Dir angelegt
     ist, zu erkennen und vertrauensvoll zum Wachsen zu bringen.
-  image: /images/uploads/hero.jpg
+  image: /images/hero.jpg
   image_alt: Nigella-Samenkapsel im Garten
 intro:
   label: Du stehst im Zentrum — mit Deinem ganzen Wesen.
