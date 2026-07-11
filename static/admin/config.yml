@@ -47,6 +47,38 @@ collections:
               - { label: "Überschrift", name: "title", widget: "string" }
               - { label: "Text", name: "lead", widget: "text" }
               - { label: "Button-Beschriftung", name: "button", widget: "string" }
+      - file: "content/angebot.md"
+        label: "Angebot"
+        name: "angebot"
+        fields:
+          - { label: "Interner Titel", name: "title", widget: "string" }
+          - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Einleitungstext", name: "lead", widget: "text" }
+          - label: "Abschnitte (Bild + Text im Wechsel)"
+            name: "sections"
+            widget: "list"
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Bild", name: "image", widget: "image" }
+              - { label: "Bild — Alt-Text", name: "image_alt", widget: "string" }
+              - label: "Bildposition"
+                name: "image_position"
+                widget: "select"
+                options: [ "left", "right" ]
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - label: "Absätze"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Absatz", name: "paragraph", widget: "text" }
+          - { label: "Button-Beschriftung", name: "cta_button", widget: "string" }
+          - label: "Zitat"
+            name: "quote_band"
+            widget: "object"
+            fields:
+              - { label: "Zitat-Text", name: "text", widget: "text" }
+              - { label: "Quelle (Person)", name: "source", widget: "string" }
+
 
   - name: "angebot"
     label: "Angebot"
