@@ -22,10 +22,20 @@
     if(form){
       form.addEventListener('submit',function(e){
         e.preventDefault();
-        var ok=document.getElementById('b-ok');
-        if(ok)ok.style.display='block';
-        var btn=e.target.querySelector('button[type=submit]')||e.target.querySelector('button');
-        if(btn)btn.textContent='Gesendet ✓';
+        var data=new FormData(form);
+        fetch('/',{
+          method:'POST',
+          headers:{'Content-Type':'application/x-www-form-urlencoded'},
+          body:new URLSearchParams(data).toString()
+        }).then(function(){
+          var ok=document.getElementById('b-ok');
+          if(ok)ok.style.display='block';
+          var btn=form.querySelector('button[type=submit]');
+          if(btn)btn.textContent='Gesendet ✓';
+          form.reset();
+        }).catch(function(){
+          alert('Senden fehlgeschlagen. Bitte versuche es erneut oder schreibe direkt eine E-Mail.');
+        });
       });
     }
 
