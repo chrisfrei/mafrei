@@ -1,3 +1,17 @@
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  // Damit Einladungs-/Passwort-zurücksetzen-Links, die auf der normalen Seite
+  // landen (statt auf /admin/), trotzdem den Login-/Passwort-Dialog öffnen.
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user){
+      if (!user) {
+        window.netlifyIdentity.on("login", function(){
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 <script>
   (function(){
     var menu=document.getElementById('menu');

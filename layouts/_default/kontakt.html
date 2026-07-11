@@ -16,15 +16,20 @@
       <p style="display:none"><label>Bitte leer lassen: <input name="bot-field" /></label></p>
       <div class="field"><label>Name</label><input name="name" required placeholder="Dein Name" /></div>
       <div class="field"><label>E-Mail oder Telefon</label><input name="kontaktangabe" required placeholder="So erreiche ich Dich" /></div>
-      <div class="field"><label>Dein Anliegen</label><textarea name="anliegen" required placeholder="Worum geht es? Ein paar Sätze genügen."></textarea></div>
+      <div class="field"><label>Dein Anliegen</label><textarea name="anliegen" required placeholder="Worum geht es? Wenige Stichworte genügen."></textarea></div>
       <button class="btn" type="submit">Nachricht senden</button>
       <div class="ok-msg" id="b-ok">{{ .Params.ok_message }}</div>
     </form>
     <div>
       {{ range .Params.info }}
+      {{ if .text }}
+      <div class="info-row"><span class="k">{{ .k }}</span><span class="v" style="font-size:16px;font-weight:300;font-family:var(--sans)">{{ with .title }}<strong style="font-family:var(--serif);font-size:24px;font-weight:400;display:block;margin-bottom:8px">{{ . }}</strong>{{ end }}{{ .text }}</span></div>
+      {{ else }}
       <div class="info-row"><span class="k">{{ .k }}</span><span class="v">{{ .v }}{{ with .sub }}<small>{{ . }}</small>{{ end }}</span></div>
       {{ end }}
+      {{ end }}
       <div class="tarife">
+        <span class="k">Tarife</span>
         <h4>{{ .Params.tarife_heading }}</h4>
         {{ range .Params.tarife_paragraphs }}<p>{{ . | safeHTML }}</p>{{ end }}
       </div>
