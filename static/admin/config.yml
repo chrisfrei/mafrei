@@ -38,6 +38,7 @@ collections:
           - label: "Zitat"
             name: "quote_band"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
