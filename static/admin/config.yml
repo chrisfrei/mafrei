@@ -75,7 +75,7 @@ collections:
                 name: "paragraphs"
                 widget: "list"
                 field: { label: "Absatz", name: "paragraph", widget: "text" }
-          - { label: "Button-Beschriftung", name: "cta_button", widget: "string" }
+          - { label: "Button", name: "cta_button", widget: "string" }
           - label: "Zitat"
             name: "quote_band"
             widget: "object"
@@ -89,12 +89,12 @@ collections:
         fields:
           - { label: "Interner Titel", name: "title", widget: "string" }
           - { label: "Kicker (kleiner Text oben)", name: "eyebrow", widget: "string" }
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Rolle / Titel", name: "role", widget: "string" }
+          - { label: "Titel", name: "name", widget: "string" }
+          - { label: "Name / Titel", name: "role", widget: "string" }
           - { label: "Portraitfoto", name: "portrait", widget: "image" }
           - { label: "Portrait — Alt-Text", name: "portrait_alt", widget: "string" }
           - { label: "Biografie-Text", name: "body", widget: "markdown" }
-          - { label: "Überschrift über der Liste", name: "creds_heading", widget: "string" }
+          - { label: "Überschrift Liste", name: "creds_heading", widget: "string" }
           - label: "Stationen (Ausbildung, Erfahrung …)"
             name: "creds"
             widget: "list"
