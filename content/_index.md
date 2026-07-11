@@ -15,6 +15,14 @@ intro:
       Selbstbestimmung und Handlungsfähigkeit.
     - Gemäss dem humanistischen Menschenbild trägt jeder Mensch seine ureigenste
       Lösung in sich. Ich begleite Dich wohlwollend dabei, sie zu finden.
+  paragraph: >-
+    Psychosoziale Beratung ist Hilfe zur Selbsthilfe für Menschen, die zu
+    einzelnen Themen oder Situationen Unterstützung suchen. Sie begleitet bei
+    Entscheidungs-, Veränderungs- und Bewältigungsprozessen und stärkt
+    Selbstbestimmung und Handlungsfähigkeit.
+
+
+    Gemäss dem humanistischen Menschenbild trägt jeder Mensch seine ureigenste Lösung in sich. Ich begleite Dich wohlwollend dabei, sie zu finden.
 quote_band:
   text: Das kleinste Samenkorn trägt das grosse Ganze in sich.
   source: Friedrich Fröbel
