@@ -103,6 +103,9 @@ section{padding:110px 0}
 .tarife p{font-size:14.5px;color:var(--ink-soft);font-weight:300}
 .tarife p+p{margin-top:10px}
 .ok-msg{display:none;color:var(--accent-deep);padding:14px 0;font-size:15px;border-top:1px solid var(--accent-deep);margin-top:14px}
+.hidden-field{display:none}
+.info-row .v.v-detail{font-size:16px;font-weight:300;font-family:var(--sans)}
+.field-title{font-family:var(--serif);font-size:24px;font-weight:400;display:block;margin-bottom:8px}
 
 footer{padding:90px 0 40px;border-top:1px solid var(--line)}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:50px;margin-bottom:50px}
@@ -129,6 +132,20 @@ footer{padding:90px 0 40px;border-top:1px solid var(--line)}
 .legal a:hover{border-color:var(--accent-deep)}
 .legal .meta{font-size:14px;color:var(--ink-soft);font-weight:300;margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
 .legal .addr{font-family:var(--serif);font-size:21px;color:var(--ink);line-height:1.5;margin:6px 0 16px}
+
+/* utility spacing (avoid inline styles) */
+.mt-24{margin-top:24px}
+.mt-64{margin-top:64px}
+.section-pt-40{padding-top:40px}
+.section-pt-50{padding-top:50px}
+.section-pt-56{padding-top:56px}
+.section-flush{padding:0}
+.ph-flush{padding-bottom:0}
+.about-pad{padding-top:30px;padding-bottom:110px}
+.cta-title{margin-top:22px}
+.cta-lead{max-width:560px;margin:0 auto 34px}
+.foot-desc{color:var(--ink-soft);max-width:320px;font-weight:300;font-size:15px}
+.footer-cta{margin-top:2px;padding:15px 22px}
 
 @media(max-width:900px){
   .menu{display:none}

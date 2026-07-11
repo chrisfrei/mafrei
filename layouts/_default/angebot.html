@@ -4,10 +4,10 @@
   <h1>{{ .Params.heading }}</h1>
   <p class="lead">{{ .Params.lead }}</p>
 </div>
-<section style="padding-top:40px">
+<section class="section-pt-40">
   <div class="wrap">
     {{ range $i, $s := .Params.sections }}
-    <div class="angebot-intro-grid" {{ if gt $i 0 }}style="margin-top:64px"{{ end }}>
+    <div class="angebot-intro-grid{{ if gt $i 0 }} mt-64{{ end }}">
       {{ if eq $s.image_position "left" }}
       <div class="wind-img-wrap"><img src="{{ $s.image | relURL }}" alt="{{ $s.image_alt }}" class="wind-img" /></div>
       <div class="prose">
@@ -23,7 +23,7 @@
       {{ end }}
     </div>
     {{ end }}
-    <div style="margin-top:64px"><a class="btn" href="{{ "/kontakt/" | relURL }}">{{ .Params.cta_button }}</a></div>
+    <div class="mt-64"><a class="btn" href="{{ "/kontakt/" | relURL }}">{{ .Params.cta_button }}</a></div>
   </div>
 </section>
 <section class="q-band">

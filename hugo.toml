@@ -32,3 +32,12 @@ enableRobotsTXT = true
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[minify]
+  minifyOutput = true
+[minify.tdewolff.html]
+  keepDocumentTags = true
+  keepEndTags = true
+  keepQuotes = true
+  keepDefaultAttrVals = true
+  keepWhitespace = false

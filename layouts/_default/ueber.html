@@ -1,10 +1,10 @@
 {{ define "main" }}
-<section style="padding:0">
-  <div class="ph wrap" style="padding-bottom:0">
+<section class="section-flush">
+  <div class="ph wrap ph-flush">
     <span class="eyebrow">{{ .Params.eyebrow }}</span>
     <h1>Mit Gelassenheit und Toleranz</h1>
   </div>
-  <div class="about wrap" style="padding-top:30px;padding-bottom:110px">
+  <div class="about wrap about-pad">
     <img src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt }}" class="portrait" />
     <div class="txt">
       <p class="role">{{ .Params.role }}</p>

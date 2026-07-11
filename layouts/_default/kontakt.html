@@ -3,19 +3,19 @@
   <span class="eyebrow">{{ .Params.eyebrow }}</span>
   <h1>{{ .Params.heading }}</h1>
 </div>
-<div class="wrap" style="margin-top:24px">
+<div class="wrap mt-24">
   <div class="angebot-intro-grid">
     <p class="lead">{{ .Params.lead | safeHTML }}</p>
     <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt }}" class="kontakt-img" />
   </div>
 </div>
-<section style="padding-top:56px">
+<section class="section-pt-56">
   <div class="wrap contact">
-    <form id="b-form" name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <form id="b-form" name="kontakt" method="post" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="kontakt" />
-      <p style="display:none"><label>Bitte leer lassen: <input name="bot-field" /></label></p>
-      <div class="field"><label>Name</label><input name="name" required placeholder="Dein Name" /></div>
-      <div class="field"><label>E-Mail oder Telefon</label><input name="kontaktangabe" required placeholder="So erreiche ich Dich" /></div>
+      <p class="hidden-field"><label>Bitte leer lassen: <input type="text" name="bot-field" /></label></p>
+      <div class="field"><label>Name</label><input type="text" name="name" required placeholder="Dein Name" /></div>
+      <div class="field"><label>E-Mail oder Telefon</label><input type="text" name="kontaktangabe" required placeholder="So erreiche ich Dich" /></div>
       <div class="field"><label>Dein Anliegen</label><textarea name="anliegen" required placeholder="Worum geht es? Wenige Stichworte genügen."></textarea></div>
       <button class="btn" type="submit">Nachricht senden</button>
       <div class="ok-msg" id="b-ok">{{ .Params.ok_message }}</div>
@@ -23,7 +23,7 @@
     <div>
       {{ range .Params.info }}
       {{ if .text }}
-      <div class="info-row"><span class="k">{{ .k }}</span><span class="v" style="font-size:16px;font-weight:300;font-family:var(--sans)">{{ with .title }}<strong style="font-family:var(--serif);font-size:24px;font-weight:400;display:block;margin-bottom:8px">{{ . }}</strong>{{ end }}{{ .text }}</span></div>
+      <div class="info-row"><span class="k">{{ .k }}</span><span class="v v-detail">{{ with .title }}<strong class="field-title">{{ . }}</strong>{{ end }}{{ .text }}</span></div>
       {{ else }}
       <div class="info-row"><span class="k">{{ .k }}</span><span class="v">{{ .v }}{{ with .sub }}<small>{{ . }}</small>{{ end }}</span></div>
       {{ end }}
