@@ -83,6 +83,7 @@ collections:
           - label: "Zitat"
             name: "quote_band"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
@@ -99,13 +100,16 @@ collections:
           - { label: "Portrait — Alt-Text", name: "portrait_alt", widget: "string" }
           - { label: "Biografie-Text", name: "body", widget: "markdown" }
           - { label: "Überschrift Liste", name: "creds_heading", widget: "string" }
+
           - label: "Stationen (Ausbildung, Erfahrung …)"
             name: "creds"
             widget: "list"
             field: { label: "Station", name: "cred", widget: "string" }
+
           - label: "Zitat"
             name: "quote_band"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
@@ -120,6 +124,7 @@ collections:
           - { label: "Text (Zeilenumbruch mit <br/> möglich)", name: "lead", widget: "text" }
           - { label: "Bild", name: "image", widget: "image" }
           - { label: "Bild — Alt-Text", name: "image_alt", widget: "string" }
+          
           - label: "Kontaktangaben"
             name: "info"
             widget: "list"
@@ -129,14 +134,17 @@ collections:
               - { label: "Wert", name: "v", widget: "string" }
               - { label: "Zusatztext (optional)", name: "sub", widget: "string", required: false }
           - { label: "Überschrift über den Tarifen", name: "tarife_heading", widget: "string" }
+
           - label: "Tarife — Absätze"
             name: "tarife_paragraphs"
             widget: "list"
             field: { label: "Absatz", name: "paragraph", widget: "text" }
           - { label: "Bestätigungstext nach Formular-Absenden", name: "ok_message", widget: "string" }
+          
           - label: "Zitat"
             name: "quote_band"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Zitat", name: "text", widget: "text" }
               - { label: "Quelle (Person)", name: "source", widget: "string" }
