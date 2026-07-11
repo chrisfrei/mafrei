@@ -6,11 +6,11 @@ eyebrow: Rechtliches
 ## Verantwortlich für den Inhalt
 
 * Marion Frei
-* Psychosoziale Beratung SGfB
+* Psychosoziale Beraterin FSB, Beraterin SGfB
 
 ## Berufsbezeichnung & Qualifikation
 
-Dipl. psychologische Beraterin FSB, Beraterin SGfB (Schweizerischer Berufsverband für Beratung). Mitglied der Qualitätskommission SGfB. Die Berufsbezeichnung wurde in der Schweiz erworben.
+Psychosoziale Beraterin FSB, Beraterin SGfB (Schweizerischer Berufsverband für Beratung). Mitglied der Qualitätskommission SGfB. Die Berufsbezeichnung wurde in der Schweiz erworben.
 
 ## Haftungsausschluss
 
