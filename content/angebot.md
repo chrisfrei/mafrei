@@ -17,7 +17,7 @@ sections:
         und Bewältigungsprozessen und dient der Stärkung der Selbstbestimmung
         und der eigenen Handlungsfähigkeit. Von einer Psychotherapie
         unterscheidet sie sich beispielsweise, indem sie keine Diagnosen stellt.
-  - image: pdf-img/angebot-2.jpg
+  - image: images/wasser.jpg
     image_alt: Wasser, das aus einer Quelle fliesst
     image_position: right
     heading: Mein Angebot
