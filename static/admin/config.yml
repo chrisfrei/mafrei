@@ -32,10 +32,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Überschrift/Label", name: "label", widget: "string" }
-              - label: "Absätze"
-                name: "paragraphs"
-                widget: "list"
-                field: { label: "Absatz", name: "paragraph", widget: "text" }
+              - { label: "Text", name: "paragraph", widget: "text" }
           - label: "Zitat"
             name: "quote_band"
             widget: "object"
