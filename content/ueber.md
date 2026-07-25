@@ -9,7 +9,7 @@ creds_heading: Einige Stationen auf diesem Weg
 creds:
   - Grundausbildung Kauffrau (nach wie vor in Teilzeit tätig)
   - Spielgruppenleiterin mit Ausbildung, Schulassistentin, Tagesmami
-  - Kurse & Weiterbildungen in Personalwesen, Betriebspsychologie,
+  - Kurse und Weiterbildungen in Personalwesen, Betriebspsychologie,
     Schreibtherapie, kreativem Schreiben
   - Psychosoziale Beraterin FSB, Beraterin SGfB
   - Mitglied Qualitätskommission SGfB
