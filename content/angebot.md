@@ -27,7 +27,7 @@ sections:
         zu dieser Auffassung begleite und unterstütze ich Dich wohlwollend und
         verständnisvoll darin, den Weg zu dieser Lösung zu finden und zu gehen.
         Hierfür stehen uns verschiedene «Werkzeuge» wie Ressourcenarbeit,
-        Reframing, Schreibübungen etc. hilfreich zur Verfügung.
+        Reframing, Schreibübungen etc. hilfreich zur Seite.
       - "Mögliche Bereiche können u. a. sein: Probleme am Arbeitsort, Konflikte
         mit Familienangehörigen oder in der Beziehung, Schwierigkeiten in der
         Erziehung, Schulsorgen, Frauenthemen, Kindheitsthematiken
