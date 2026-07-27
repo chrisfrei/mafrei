@@ -109,8 +109,9 @@ section{padding:110px 0}
 
 footer{padding:90px 0 40px;border-top:1px solid var(--line)}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr;gap:50px;margin-bottom:50px}
-.foot-grid .fb{font-family:var(--logo-font);font-size:23px;display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.foot-grid .fb{font-family:var(--logo-font);font-size:18px;display:flex;align-items:center;gap:8px;margin-bottom:16px}
 .foot-grid .fb b{font-weight:400}
+.foot-grid .fb .leaf{width:23px;height:23px}
 .foot-col p.foot-label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-deep);margin-bottom:18px;font-weight:600}
 .foot-col a{display:block;color:var(--ink-soft);font-size:15px;padding:6px 0;cursor:pointer;font-weight:300}
 .foot-col a:hover{color:var(--ink)}
