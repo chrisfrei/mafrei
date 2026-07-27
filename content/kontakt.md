@@ -22,7 +22,8 @@ tarife_paragraphs:
   - Termine sind verbindlich und werden verrechnet, sofern nicht 24 Std. vorher
     abgesagt. Keine Übernahme durch die Krankenkasse (die SGfB arbeitet an einer
     Aufnahme).
-ok_message: Vielen Dank — Deine Nachricht ist angekommen.
+ok_message: Vielen Dank — Deine Nachricht ist angekommen. Ich melde mich so bald
+  wie möglich.
 layout: kontakt
 quote_band:
   text: Zu wissen, dass Veränderung möglich ist, und der Wunsch, Veränderungen
