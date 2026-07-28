@@ -11,7 +11,13 @@
   status = 301
 
 [[redirects]]
-  from = "/counter/*"
-  to = "https://gc.zgo.at/:splat"
+  from = "/counter/count.js"
+  to = "https://gc.zgo.at/count.js"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/counter/count"
+  to = "https://mafrei.goatcounter.com/count"
   status = 200
   force = true
