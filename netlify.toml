@@ -9,3 +9,9 @@
   from = "/ueber-mich/"
   to = "/ueber/"
   status = 301
+
+[[redirects]]
+  from = "/counter/*"
+  to = "https://gc.zgo.at/:splat"
+  status = 200
+  force = true
