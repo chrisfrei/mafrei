@@ -13,6 +13,9 @@ creds:
     Schreibtherapie, kreativem Schreiben
   - Psychosoziale Beraterin FSB, Beraterin SGfB
   - Mitglied Qualitätskommission SGfB
+  - Grundkurs Psychotraumatologie
+  - Achtsamkeitstraining (MBSR)
+  - Ressourcenorientiertes Selbstmanagement nach ZRM
   - Fortlaufende Weiterbildungen
 layout: ueber
 quote_band:
