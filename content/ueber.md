@@ -12,10 +12,10 @@ creds:
   - Kurse und Weiterbildungen in Personalwesen, Betriebspsychologie,
     Schreibtherapie, kreativem Schreiben
   - Psychosoziale Beraterin FSB, Beraterin SGfB
-  - Mitglied Qualitätskommission SGfB
   - Grundkurs Psychotraumatologie
   - Achtsamkeitstraining (MBSR)
   - Ressourcenorientiertes Selbstmanagement nach ZRM
+  - Mitglied Qualitätskommission SGfB
   - Fortlaufende Weiterbildungen
 layout: ueber
 quote_band:
